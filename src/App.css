@@ -1,0 +1,17 @@
+.container {
+  /* background-color: #828282; */
+}
+
+.body {
+  height: 500px;
+  width: 100%;
+  background-color: blue;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: chartreuse;
+}
