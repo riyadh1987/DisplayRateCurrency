@@ -1,10 +1,10 @@
 import React from 'react';
 import CurrencyTitle from '../../atoms/currencyTitle/CurrencyTitle';
-import "./TableHeader.css"
+import './TableHeader.css'
 
 const TableHeader = ({text1, text2, text3, text4}) => {
     return (
-        <div class="list">
+        <div class="headerList">
             <CurrencyTitle text={text1}/>
             <CurrencyTitle text={text2}/>
             <CurrencyTitle text={text3}/>
