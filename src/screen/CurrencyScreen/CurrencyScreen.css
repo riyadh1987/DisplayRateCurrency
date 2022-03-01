@@ -1,28 +1,28 @@
-.container {
+.currencyContainer {
   background-color: orange;
-  /* align-items: center;
-  justify-content: center; */
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.list {
+.currencyList {
   padding: 5px;
   margin: 2px;
-  /* width: 600px; */
-  /* width: "100%"; */
   display: flex;
-  /* background-color: chartreuse; */
+  justify-content: space-around;
+  flex-direction: row;
+  width: 800px;
 }
 
-.content-text {
+.currencyContentText {
   text-align: center;
   width: 100%;
   font-weight: 600;
   color: white;
-  /* background-color: darkorange; */
 }
 
-.footer {
-  display: inline-block;
+.currencyFooter {
+  display: flex;
   justify-content: center;
-  /* background-color: darkorchid; */
 }
